@@ -66,6 +66,7 @@ h1, h2, h3, h4, p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+  width: 100%;
 }
 
 section {
@@ -201,6 +202,7 @@ section {
   --clr-inner: #faa700;
   --clr-outer: #e48d00;
   --clr-accent: #a1173c;
+  width: 100%;
 }
 
 .shoe-white {
@@ -217,5 +219,10 @@ section {
 
 .hero {
   --clr-accent: #faa700;
+}
+
+.darkmode-toggle::after {
+  content: "🌓";
+  z-index: 500;
 }
 /*# sourceMappingURL=style.css.map */
